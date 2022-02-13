@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/overlay_light_100"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawHorizontalTrack="true">
+
+        <TextView
+            android:id="@+id/TextView_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:text="@string/saeve_report"
+            android:textColor="@color/overlay_dark_90"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TextView_Title"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+            <LinearLayout
+                android:id="@+id/LinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/overlay_light_100">
+
+
+
+                    <ImageView
+                        android:id="@+id/ImageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:src="@drawable/image_bg"
+                        app:layout_collapseMode="parallax"
+                        />
+
+
+
+                <ImageView
+                    android:id="@+id/chooseImage"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:onClick="onClick"
+                    android:layout_marginTop="-35dp"
+                    android:layout_marginLeft="210dp"
+                    android:src="@drawable/ic_camera" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+
+                    <Spinner
+                        android:id="@+id/activity_report_places_spinner_province"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center_horizontal"
+                        android:backgroundTint="@color/colorAccent"
+                        android:padding="@dimen/spacing_large" />
+
+                    <TextView
+                        android:id="@+id/activity_report_places_TextView_province"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text=""
+                        android:textSize="18dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="@dimen/spacing_large"
+                        android:paddingTop="@dimen/spacing_large"
+                        android:paddingEnd="@dimen/spacing_large"
+                        android:textColor="@color/overlay_dark_90"
+                        android:backgroundTint="@color/overlay_light_100"
+                        android:background="@drawable/btn_rounded_white"
+                        android:layout_marginLeft="@dimen/spacing_large"/>
+
+                </FrameLayout>
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <Spinner
+                        android:id="@+id/activity_report_places_spinner_county"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:padding="@dimen/spacing_large"
+                        android:backgroundTint="@color/colorAccent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_alignParentRight="true"
+                        />
+
+
+
+                    <TextView
+                        android:id="@+id/activity_report_places_TextView_county"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text=""
+                        android:textSize="18dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="@dimen/spacing_large"
+                        android:paddingTop="@dimen/spacing_large"
+                        android:paddingEnd="@dimen/spacing_large"
+                        android:textColor="@color/overlay_dark_90"
+                        android:backgroundTint="@color/overlay_light_100"
+                        android:background="@drawable/btn_rounded_white"
+                        android:layout_marginLeft="@dimen/spacing_large"/>
+
+                </FrameLayout>
+
+                <EditText
+                    android:id="@+id/activity_report_places_EditText_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/place"
+                    android:inputType="text"
+                    app:passwordToggleEnabled="true"
+                    android:maxLines="1"
+                    android:padding="@dimen/spacing_middle"
+                    android:singleLine="true"
+                    />
+
+
+                <EditText
+                    android:id="@+id/activity_report_places_EditText_position"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/owner_name"
+                    android:inputType="text"
+                    app:passwordToggleEnabled="true"
+                    android:maxLines="1"
+                    android:padding="@dimen/spacing_middle"
+                    android:singleLine="true"
+                    />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <Button
+                    android:id="@+id/btn_upload"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    android:background="@drawable/around_button"
+                    android:text="@string/send"
+                    android:textColor="#fff"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/spacing_medium">
+
+                    <com.github.ybq.android.spinkit.SpinKitView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/spin_kit_report"
+                        style="@style/SpinKitView.Small.Circle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone"
+                        app:SpinKit_Color="#44A5DD"
+                       />
+
+                    <TextView
+                        android:id="@+id/text_view_load_report"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/loading"
+                        android:visibility="gone"
+                        android:layout_marginRight="@dimen/spacing_middle"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+        </RelativeLayout>
+
+            </LinearLayout>

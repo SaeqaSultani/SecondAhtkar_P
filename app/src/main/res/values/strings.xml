@@ -1,0 +1,244 @@
+
+    <resources>
+        <string name="app_name">احتکار</string>
+        <string name="uploadImages">انتخاب عکس</string>
+        <string name="open_drawer">open navigation drawer</string>
+        <string name="close_drawer">close navigation drawer</string>
+        <string name="error_toast">مشکل در اتصال شبکه</string>
+        <string name="success_toast">موفقیت</string>
+        <string name="warning_toast">مشکل در سرویس دهی</string>
+        <string name="info_toast">لطفا عکس را انتخاب کنید</string>
+        <string name="info_toasty">شماره تماس یا رمز اشتباه است</string>
+        <string name="logout">خروج</string>
+        <string name="no">نخیر</string>
+        <string name="yes">بله</string>
+        <string name="logout_text">آیا میخواهید خارج شوید</string>
+        <string name="camera">گرفتن عکس از کمره</string>
+        <string name="gallery">گرفتن عکس از گالری</string>
+        <string name="exist">برای خروج کلید بازگشت را دوباره فشاردهید</string>
+        <string name="loading">در حال بارگیری...</string>
+        <string name="place">قریه/منطقه</string>
+        <string name="signup">راجستر</string>
+        <string name="signin">ورود</string>
+        <string name="name">نام</string>
+        <string name="last_name">تخلص</string>
+        <string name="phone_number">شماره تماس</string>
+        <string name="password">رمز</string>
+        <string name="save">ثبت</string>
+        <string name="title_1">احتکار</string>
+        <string name="title_2">شکایت</string>
+        <string name="title_3">نتایج</string>
+        <string name="explain_1">احتکار جرم است و پیگرد قانونی دارد</string>
+        <string name="explain_2">شکایات خود را ثبت نموده و به منابع مربوطه ارسال نماییدهویت شما محفوظ است</string>
+        <string name="explain_3">شکایات شما برسی شده و نتایج آن به اشتراک گذاشته میشود</string>
+        <string name="got_it">ورود</string>
+        <string name="write_password">رمز حد اقل باید 6 حرف یا عدد باشد</string>
+        <string name="write_phone_number">شماره تماس باید 10 عدد باشد</string>
+        <string name="skip">بگذر</string>
+        <string name="write_last_name">لطفا تخلص خود را وارد کنید</string>
+        <string name="write_name">لطفا نام خود را وارد کنید</string>
+        <string name="write_phone">لطفا شماره تماس خود را وارد کنید</string>
+        <string name="write_place">لطفا منطقه/قریه خود را وارد کنید</string>
+        <string name="writ_village">please write village/zone</string>-->
+        <string name="write_place_of_hoard">لطفا نام احتکار کننده/مکان احتکار را وارد کنید</string>
+        <string name="write_place_of_owner">لطفا نام مالک/ملکیت را وارد کنید</string>
+        <string name="write_material_name">لطفا نام جنس را وارد کنید</string>
+        <string name="write_material_cost">لطفا قیمت جنس را وارد کنید</string>
+        <string name="permission">اجازه داده شد</string>-->
+        <string name="permission_not">اجازه داده نشد</string>
+        <string name="welcome">به اپلکیشن احتکار خوش آمدید</string>
+        <string name="first">برای بار اول اینجا کلیک کنید</string>
+        <string name="choose_province">لطفا یک ولایت را انتخاب کنید</string>
+        <string name="choose_county">لطفا یک ولسوالی/ناحیه را انتخاب کنید</string>
+        <string name="hoard_places">نام احتکار کننده/مکان احتکار</string>
+        <string name="materia_name">نام جنس</string>
+        <string name="material_cost">قیمت جنس</string>
+        <string name="send">ارسال</string>
+        <string name="saeve_report">درج گزارش</string>
+        <string name="owner_name">نام مالک/ملکیت</string>
+        <string name="about">درباره</string>
+        <string name="province">ولایت :</string>
+        <string name="county">ولسوالی/ناحیه :</string>
+        <string name="hoarder_name">نام احتکار کننده/مکان احتکار :</string>
+        <string name="name_of_material">نام جنس :</string>
+        <string name="cost_of_material">قیمت جنس :</string>
+        <string name="zone">قریه/منطقه :</string>
+        <string name="name_of_hoarder">نام مالک/ملکیت :</string>
+        <string name="anwser">جواب:</string>
+
+        <string-array name="array_province">
+            <item>ولایت</item>
+            <item>هرات</item>
+
+
+        </string-array>
+
+
+
+        <string-array name="array_county">
+            <item>ولسوالی/ناحیه</item>
+            <item>انجیل</item>
+            <item>گذهر</item>
+            <item>پشتون زرغون</item>
+            <item>کرخ</item>
+            <item>کشک رباط سنگی</item>
+            <item>گلران</item>
+            <item>کهسان</item>
+            <item>غوریان</item>
+            <item>زنده جان</item>
+            <item>ادرسکن</item>
+            <item>شیندند</item>
+            <item>فارسی</item>
+            <item>اوبه</item>
+            <item>چشت شریف</item>
+            <item>کشک کهنه</item>
+            <item>ناحیه اول</item>
+            <item>ناحیه دوم</item>
+            <item>ناحیه سوم</item>
+            <item>ناحیه چهارم</item>
+            <item>ناحیه پنجم</item>
+            <item>ناحیه شیشم</item>
+            <item>ناحیه هفتم</item>
+            <item>ناحیه هشتم</item>
+            <item>ناحیه نهم</item>
+            <item>ناحیه دهم</item>
+            <item>ناحیه یازدهم</item>
+            <item>ناحیه دوازدهم</item>
+            <item>ناحیه سیزدهم</item>
+            <item>ناحیه چهاردهم</item>
+            <item>ناحیه پانزدهم</item>
+
+        </string-array>
+
+
+
+        <string name="version">نسخه ۱.۰</string>
+        <string name="connect_us"> راه های ارتباطی آسوده آور </string>
+        <string name="about_page">اپلکشن احتکار یک اپلکشن گزارش دهی میباشد که هدف این برنامه گزارش دهی اماکن ممنوعه و مکان های که در آن احتکار  صورت میگیرد میباشد مردم شکایات را توسط این اپ ثبت نموده و ادارات مربوطه مسوول اند تا شکایات را برسی و به مردم توسط این اپ گزارش دهند.</string>
+
+
+    </resources>
+
+
+<!--    <resources>-->
+<!--        <string name="app_name">Ehtkar</string>-->
+<!--        <string name="uploadImages">Choose Image</string>-->
+<!--        <string name="open_drawer">open navigation drawer</string>-->
+<!--        <string name="close_drawer">close navigation drawer</string>-->
+<!--        <string name="error_toast">Internet Problem</string>-->
+<!--        <string name="warning_toast">Server Problem</string>-->
+<!--        <string name="success_toast">Success</string>-->
+<!--        <string name="info_toast">please choose image</string>-->
+<!--        <string name="info_toasty">PhoneNumber or Password is wrong! </string>-->
+<!--        <string name="logout">Logout</string>-->
+<!--        <string name="logout_text">Do you want to exist ?</string>-->
+<!--        <string name="yes">Yes</string>-->
+<!--        <string name="permission">Permission granted</string>-->
+<!--        <string name="permission_not">Permission not granted</string>-->
+<!--        <string name="no">No</string>-->
+<!--        <string name="camera">Click from camera</string>-->
+<!--        <string name="gallery">Pick from gallery</string>-->
+<!--        <string name="exist">press again to exist</string>-->
+<!--        <string name="loading">Loading...</string>-->
+<!--        <string name="place">village/zone</string>-->
+<!--        <string name="signup">Sign up</string>-->
+<!--        <string name="signin">SIGN IN</string>-->
+<!--        <string name="name">Name</string>-->
+<!--        <string name="last_name">LastName</string>-->
+<!--        <string name="phone_number">Phone Number</string>-->
+<!--        <string name="password">Password</string>-->
+<!--        <string name="save">Save</string>-->
+<!--        <string name="title_1">Hoard</string>-->
+<!--        <string name="title_2">Complaint</string>-->
+<!--        <string name="title_3">Result</string>-->
+<!--        <string name="explain_1">Hoarding is crime and has prosecuted</string>-->
+<!--        <string name="explain_2">Register your complaints and send them to the relevant sources. your identity is protected</string>-->
+<!--        <string name="explain_3">Your complaints will be investigated and the results shared</string>-->
+<!--        <string name="got_it">Got it</string>-->
+<!--        <string name="write_password">password should be at least 6 character long</string>-->
+<!--        <string name="write_phone_number">PhoneNumber should be 10 number</string>-->
+<!--        <string name="skip">SKIP</string>-->
+<!--        <string name="write_name">Please write your name</string>-->
+<!--        <string name="write_last_name">Please write your last name</string>-->
+<!--        <string name="write_phone">Please write your phoneNumber</string>-->
+<!--        <string name="write_place">Please write your village/zone</string>-->
+<!--        <string name="welcome">Welcome to Ehtkar App</string>-->
+<!--        <string name="first">First time here??</string>-->
+<!--        <string name="choose_province">please choose a province</string>-->
+<!--        <string name="choose_county">please choose a county/district</string>-->
+<!--        <string name="writ_village">please write village/zone</string>-->
+<!--        <string name="write_place_of_hoard">please write name of hoarder/place of hoard</string>-->
+<!--        <string name="write_place_of_owner">please write name of owner/ownership</string>-->
+<!--        <string name="write_material_name">please write name of material</string>-->
+<!--        <string name="write_material_cost">please write cost of material</string>-->
+
+
+
+<!--        <string name="version">Version 1.0</string>-->
+<!--        <string name="connect_us"> Our Convenient Ways </string>-->
+<!--        <string name="about_page">The Ehtakar application is a reporting application that aims to report illegal places and places where-->
+<!--    hoarding takes place. People have registered complaints with this app and the relevant departments-->
+<!--    are responsible for reviewing complaints and reporting to people by this app.Developers :-->
+<!--    Zohal Roshan,-->
+<!--    Morsal Uosofy-->
+<!--    and-->
+<!--    Fardina Amiri</string>-->
+<!--        <string name="saeve_report">Save Report</string>-->
+<!--        <string name="hoard_places">Name of Hoarder/Place of Hoard</string>-->
+<!--        <string name="materia_name">Name of Material</string>-->
+<!--        <string name="material_cost">Cost of Material</string>-->
+<!--        <string name="send">Send</string>-->
+<!--        <string name="owner_name">Name of Owner/Ownership</string>-->
+<!--        <string name="province">Province :</string>-->
+<!--        <string name="county"> County/District :</string>-->
+<!--        <string name="hoarder_name">NameofHoarder/PlaceofHoard :</string>-->
+<!--        <string name="name_of_material">Name of Material :</string>-->
+<!--        <string name="cost_of_material">Cost of Material :</string>-->
+<!--        <string name="zone">Village/Zone :</string>-->
+<!--        <string name="name_of_hoarder">Name of Owner/Ownership :</string>-->
+<!--        <string name="anwser">Answer:</string>-->
+<!--        <string name="about">About</string>-->
+<!--        <string-array name="array_province">-->
+<!--            <item>province</item>-->
+<!--            <item>Herat</item>-->
+<!--        </string-array>-->
+
+
+
+<!--        <string-array name="array_county">-->
+<!--            <item>County/Area</item>-->
+<!--            <item>Adraskan District</item>-->
+<!--            <item>Chishti Sharif District</item>-->
+<!--            <item>Farsi District</item>-->
+<!--            <item>Ghurian District</item>-->
+<!--            <item>Gulran District</item>-->
+<!--            <item>Guzara District</item>-->
+<!--            <item>Injil District</item>-->
+<!--            <item>Karukh District</item>-->
+<!--            <item>Kohsan District</item>-->
+<!--            <item>Kushk District</item>-->
+<!--            <item>Kushki Kuhna District</item>-->
+<!--            <item>Obe District</item>-->
+<!--            <item>Pashtun Zarghun District</item>-->
+<!--            <item>Shindand District </item>-->
+<!--            <item>Zendeh Jan District</item>-->
+<!--            <item>First District</item>-->
+<!--            <item>Second District</item>-->
+<!--            <item>Third District</item>-->
+<!--            <item>Fourth District</item>-->
+<!--            <item>Fifth District</item>-->
+<!--            <item>Sixth District</item>-->
+<!--            <item>Seventh District</item>-->
+<!--            <item>Eighth District</item>-->
+<!--            <item>Ninth District</item>-->
+<!--            <item>Tenth District</item>-->
+<!--            <item>Eleventh District</item>-->
+<!--            <item>Twelfth District</item>-->
+<!--            <item>Thirteenth District</item>-->
+<!--            <item>Fourteenth District</item>-->
+<!--            <item>Fifteenth District</item>-->
+
+<!--        </string-array>-->
+
+
+<!--    </resources>-->

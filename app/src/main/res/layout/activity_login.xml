@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/signin_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signin"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textStyle="bold"
+            android:textSize="40sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_smlarge"
+            android:text="@string/welcome"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="5dp"
+        android:orientation="vertical"
+        android:padding="35dp">
+
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/activity_login_page_EditText_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   android:inputType="phone"
+                    android:padding="@dimen/spacing_mlarge"
+                    android:drawableLeft="@drawable/ic_phone_black_24dp"
+                    android:hint="@string/phone_number" />
+
+
+                <EditText
+                    android:id="@+id/activity_login_page_EditText_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/spacing_mlarge"
+                    android:maxLines="1"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:drawableLeft="@drawable/ic_lock"
+                    android:hint="@string/password" />
+
+                <Button
+                    android:id="@+id/btn_sign_in"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layout"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:background="@drawable/btn_rounded_white"
+                    android:onClick="btn_signin"
+                    android:text="@string/signin"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/spacing_middle">
+
+                    <com.github.ybq.android.spinkit.SpinKitView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/spin_kit_login"
+                        style="@style/SpinKitView.Small.Circle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone"
+                        app:SpinKit_Color="@color/grey_600"
+                        android:layout_marginRight="@dimen/spacing_middle"/>
+
+                    <TextView
+                        android:id="@+id/text_view_load_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/loading"
+                        android:visibility="gone"
+                        android:textColor="@color/grey_400" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/layout"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/first"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        />
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/text_view_sign_up"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        android:padding="@dimen/spacing_middle"
+                        android:text="@string/signup"
+                        android:onClick="btn_signup_women"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+<!--        </androidx.core.widget.NestedScrollView>-->
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="uploadImages">
+        <item>@string/gallery</item>
+        <item>@string/camera</item>
+    </string-array>
+
+    <string-array name="itemIds">
+        <item>gallery_image</item>
+        <item>camera_image</item>
+    </string-array>
+
+
+</resources>

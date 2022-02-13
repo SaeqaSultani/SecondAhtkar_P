@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="popupTheme">@style/popupTheme</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionModeBackground">@color/blue_grey_600</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Button.Primary" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="FlatButton" parent="Widget.AppCompat.Button.Borderless">
+
+        <item name="android:textColor">@color/colorFlatButton</item>
+
+    </style>
+
+    <style name="Button.Accent" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Button.Green" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/light_green_500</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Button.White" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@android:color/white</item>
+        <item name="android:textColor">@color/grey_60</item>
+    </style>
+
+
+    <style name="popupTheme" parent="Theme.AppCompat.Light">
+        <item name="android:background">@color/overlay_light_90</item>
+        <item name="android:textColor">@color/overlay_dark_100</item>
+
+    </style>
+
+    <style name="TextAppearance.Subhead.Bold" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Medium.Bold" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Drawer.Custom.Dark" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="colorControlHighlight">#26000000</item>
+        <item name="listPreferredItemHeightSmall">60dp</item>
+    </style>
+
+    <style name="Toolbar.Light" parent="@style/AppTheme">
+        <item name="colorControlNormal">@color/grey_60</item>
+        <item name="android:textColorPrimary">@color/grey_60</item>
+    </style>
+
+
+    <style name="ProgressBarThem" parent="Widget.AppCompat.ProgressBar">
+
+    <item name="colorAccent">@color/light_blue_A300</item>
+
+    </style>
+
+</resources>

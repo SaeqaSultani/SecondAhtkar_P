@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="visible">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+                <RelativeLayout
+                    android:id="@+id/button"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="right"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center"
+                    >
+
+                    <View
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:background="@drawable/example"
+                        />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/item_list_TextView_title"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/spacing_large"
+                    android:singleLine="true"
+                    android:textSize="15dp"
+                    android:text="@string/about_page"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/overlay_dark_90"
+                    />
+
+
+            </LinearLayout>
+
+
+            <com.github.aakira.expandablelayout.ExpandableLinearLayout
+                android:id="@+id/expandableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_list_TextView_title"
+                android:orientation="vertical"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/spacing_middle">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:singleLine="true"
+                        android:textSize="15dp"
+                        android:text="@string/province"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/overlay_dark_90"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_province"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textSize="15dp"
+                        android:text="هرات"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/overlay_dark_90"
+                        />
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/spacing_middle">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:singleLine="true"
+                        android:textSize="15dp"
+                        android:text="@string/county"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/overlay_dark_90"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_county"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textSize="15dp"
+                        android:text="دوازدهم"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/overlay_dark_90"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/spacing_middle">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:singleLine="true"
+                        android:textSize="15dp"
+                        android:text="@string/zone"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/overlay_dark_90"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_place"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textSize="15dp"
+                        android:text="کاکر ها"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/overlay_dark_90"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/spacing_middle">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/spacing_large"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="@string/name_of_hoarder"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/overlay_dark_90"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/TextView_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="تالار طاووس"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/overlay_dark_90"
+                        />
+
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/anwser"
+                    android:textColor="@color/overlay_dark_90"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="@dimen/spacing_large"
+                    android:layout_marginRight="@dimen/spacing_large"
+                   android:padding="@dimen/spacing_large"/>
+
+
+                <TextView
+                    android:id="@+id/TextView_answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="با احتکار کننده ها برخورد قانونی صورت میگیرد."
+                    android:padding="10dp"
+                    android:layout_marginRight="@dimen/spacing_large"
+                    android:layout_marginLeft="@dimen/spacing_large"/>
+
+
+            </com.github.aakira.expandablelayout.ExpandableLinearLayout>
+
+
+            <ImageView
+                android:id="@+id/item_list_ImageView"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/spacing_large"
+                />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
